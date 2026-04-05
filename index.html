@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kadan Sistemas</title>
+    <link rel="icon" href="img/camaleao1010.png" type="image/png">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-------------CABEÇALHO------------->
+    <header>
+      <div class="logo"><span>Kadan Sistemas</span></div>
+      <nav id="menu">
+        <a href="index.html" class="active">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+        <!-- BOTÃO APENAS MOBILE -->
+        <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-mobile">Falar com a nossa equipe</a>
+      </nav>
+      <!-- BOTÃO APENAS DESKTOP -->
+      <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-desktop">Falar com a nossa equipe</a>
+      <!-- HAMBURGUER -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header> 
+
+    <!-------------HERO------------->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Tecnologia que se adapta ao seu negócio</h1>
+        <p>
+          Desenvolvemos sistemas personalizados para empresas que querem crescer
+          com organização, controle e inteligência.
+        </p>
+        <a href="https://wa.me/5516997647232" target="_blank" class="btn-principal">Solicitar Orçamento</a>
+      </div>
+    </section>
+
+    <!-------------SOLUÇÕES------------->
+    <section class="solucoes">
+      <h2>Nossas <span>soluções</span></h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img//sistemas.png" class="card-icon">
+          <h3>Sistemas personalizados</h3>
+          <p>Softwares sob medida para o seu negócio</p>
+        </div>
+
+        <div class="card">
+          <img src="img/automacao.png" class="card-icon">
+          <h3>Automação de processos</h3>
+          <p>Elimine tarefas repetitivas e ganhe produtividade</p>
+        </div>
+
+        <div class="card">
+          <img src="img/integracao.png" class="card-icon">
+          <h3>Integrações</h3>
+          <p>Conecte seus sistemas e centralize informações</p>
+        </div>
+
+        <div class="card">
+          <img src="img/gestao.png" class="card-icon">
+          <h3>Gestão empresarial</h3>
+          <p>Controle total dos dados da sua empresa</p>
+        </div>
+
+        <div class="card">
+          <img src="img/relatorios.png" class="card-icon">
+          <h3>Relatórios inteligentes</h3>
+          <p>Dados claros para decisões mais assertivas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------PORQUE------------->
+    <section class="porque">
+      <h2>Porque escolher a <span>Kadan</span> ?</h2>
+
+      <div class="cards">
+        <div class="card">
+           <img src="img/soluçoes.png" class="card-icon">
+          <h3>Soluções sob medida</h3>
+          <p>Sistemas feitos para atender suas necessidades</p>
+        </div>
+
+        <div class="card">
+           <img src="img/atendimento.png" class="card-icon">
+          <h3>Atendimento personalizado</h3>
+          <p>Suporte dedicado e consultoria especializada</p>
+        </div>
+
+        <div class="card">
+           <img src="img/tecnologia.png" class="card-icon">
+          <h3>Tecnologia atualizada</h3>
+          <p>Com as melhores práticas em desenvolvimento</p>
+        </div>
+
+        <div class="card">
+           <img src="img/foco.png" class="card-icon">
+          <h3>Foco em resultado</h3>
+          <p>Aumentamos eficiência e produtividade</p>
+        </div>
+
+        <div class="card">
+           <img src="img/visao_est.png" class="card-icon">
+          <h3>Visão estratégica</h3>
+          <p>Soluções voltadas ao crescimento do negócio</p>
+        </div>
+      </div>
+    </section>
+
+    <!-------------FUNCIONAMENTO------------->
+    <section class="processo">
+
+<h2>Como funciona</h2>
+
+<div class="passos">
+
+<div class="passo">
+<span class="numero">01</span>
+<h3>Entendemos sua necessidade</h3>
+<p>Ouvimos e mapeamos cada detalhe do seu processo.</p>
+</div>
+
+<div class="passo">
+<span class="numero">02</span>
+<h3>Desenvolvemos a solução</h3>
+<p>Criamos o sistema ideal com tecnologia de ponta.</p>
+</div>
+
+<div class="passo">
+<span class="numero">03</span>
+<h3>Implantamos e acompanhamos</h3>
+<p>Instalamos, treinamos e damos suporte contínuo.</p>
+</div>
+
+<div class="passo">
+<span class="numero">04</span>
+<h3>Sua empresa cresce</h3>
+<p>Com organização, controle e inteligência.</p>
+</div>
+
+</div>
+</section>
+
+    <!-------------CTA------------->
+    <section class="cta">
+      <div class="cta-conteudo">
+      <h2>Está pronto para <br> <span>automatizar</span> sua empresa?</h2>
+
+      <a href="https://wa.me/5516997647232" target="_blank" class="btn-principal">Falar com a nossa equipe</a>
+      </div>
+      <img src="img/camaleao1010.png" class="camaleaocta">
+    </section>
+
+    <!-------------FOOTER------------->
+    <footer>
+      <p>(16) 99764-7232</p>
+      <p>contato@kadan.net.br</p>
+      <p>© 2026 Kadan Sistemas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+  </body>
+</html>

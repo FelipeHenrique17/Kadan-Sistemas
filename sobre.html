@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nós</title>
+    <link rel="icon" href="img/camaleao1010.png" type="image/png">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="sobre.css" />
+  </head>
+
+  <body>
+    <!-------------CABEÇALHO------------->
+    <header>
+      <div class="logo"><span>Kadan Sistemas</span></div>
+      <nav id="menu">
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html" class="active">Sobre Nós</a>
+        <a href="contato.html">Contato</a>
+        <!-- BOTÃO APENAS MOBILE -->
+        <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-mobile">Falar com a nossa equipe</a>
+      </nav>
+      <!-- BOTÃO APENAS DESKTOP -->
+      <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-desktop">Falar com a nossa equipe</a>
+      <!-- HAMBURGUER -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header> 
+
+    <!-------------SOBRE NÓS------------->
+    <section class="sobre">
+      <h1>Sobre Nós</h1>
+      <p class="descricao">A Kadan desenvolve sistemas personalizados para aumentar a eficiência,
+        controle e crescimento dos negócios.</p>
+    </section>
+
+    <!-------------BANNER------------->
+    <section class="banner">
+      <img src="img/sobrenos.png" class="banner-sobre" />
+    </section>
+
+    <!-------------PROPÓSITO------------->
+    <section class="proposito">
+      <h2>Nosso <span>Propósito</span></h2>
+      <p>Adaptar, integrar e transformar com soluções digitais sob medida.</p>
+    </section>
+
+    <!-------------MISSÃO------------->
+    <section class="missoes">
+      <div class="card-missao">
+        <img src="img/missao.png" />
+        <div>
+          <h3>Missão</h3>
+          <p>Transformar desafios de gestão em soluções digitais que aumentam produtividade, reduzem custos e trazem mais controle para as empresas.</p>
+        </div>
+      </div>
+
+      <!-------------VISÃO------------->
+      <div class="card-missao">
+        <img src="img/visao.png" />
+        <div>
+          <h3>Visão</h3>
+          <p>Ser referência em sistemas personalizados que impulsionam a transformação digital e o crescimento das empresas.</p>
+        </div>
+      </div>
+
+      <!-------------VALORES------------->
+      <div class="card-valores">
+        <img src="img/valores.png" class="icone-valores" />
+        <div class="valores-texto">
+          <h3>Valores</h3>
+          <ul>
+            <li>Adaptabilidade: soluções que se ajustam à realidade de cada negócio.</li>
+            <li>Simplicidade: tecnologia feita para facilitar o dia a dia.</li>
+            <li>Compromisso: qualidade, responsabilidade e foco em resultados.</li>
+            <li>Parceria: trabalhamos lado a lado com nossos clientes.</li>
+            <li>Evolução: melhoria contínua em tecnologia e atendimento.</li>
+            <li>Confiabilidade: segurança e dados tratados com seriedade.</li>
+          </ul>
+        </div>
+        <img src="img/camaleao.png" class="camaleao-valores" alt="camaleao">
+      </div>
+    </section>
+
+    <!-------------CONCEITO------------->
+    <section class="conceito">
+      <div class="conceito-container">
+        <div class="conceito-texto">
+          <h2>Conceito do <span>Camaleão</span></h2>
+
+          <p>
+            A Kadan tem como símbolo o camaleão porque ele representa exatamente
+            o que fazemos na prática:
+            <strong>adaptação inteligente.</strong>
+          </p>
+
+          <p>
+            Cada empresa tem sua própria realidade — processos, cultura, regras
+            e urgências — e a nossa tecnologia acompanha tudo isso de forma
+            estratégica.
+          </p>
+
+          <p>
+            Assim como o camaleão se ajusta ao ambiente, a Kadan desenvolve e
+            evolui sistemas que se encaixam no seu fluxo de trabalho, em vez de
+            obrigar você a mudar toda a operação.
+          </p>
+
+          <p>
+            Nosso mascote não é apenas um detalhe visual: ele simboliza a nossa
+            essência — promover transformação real no ritmo da sua empresa.
+          </p>
+        </div>
+
+        <div class="conceito-imagens">
+          <img src="img/camaleao_note.png" />
+          <img src="img/kaduca.png" class="img2" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------POSICIONAMENTO------------->
+    <section class="posicionamento">
+      <div class="posicionamento-container">
+        <div class="posicionamento-texto">
+          <h2>Nosso <span>Posicionamento</span></h2>
+
+          <p>
+            A Kadan se posiciona como parceira técnica de transformação,
+            especializada em desenvolver sistemas que se moldam ao seu cenário e
+            resolvem o que trava a operação.
+          </p>
+
+          <p>
+            Dessa forma não entregamos software genérico. Cada projeto é único,
+            pensado para resolver os desafios reais do seu negócio.
+          </p>
+
+          <p>Na prática isso significa:</p>
+
+          <ul>
+            <li>diagnóstico rápido do problema</li>
+            <li>solução sob medida</li>
+            <li>implantação sem drama</li>
+            <li>e evolução contínua com o negócio</li>
+          </ul>
+        </div>
+
+        <div class="posicionamento-imagem">
+          <img src="img/proposito.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------FOOTER------------->
+    <footer>
+      <p>(16) 99764-7232</p>
+      <p>contato@kadan.net.br</p>
+      <p>© 2026 Kadan Sistemas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+  </body>
+</html>

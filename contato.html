@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="icon" href="img/camaleao1010.png" type="image/png" />
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+
+  <body>
+    <!-------------CABEÇALHO------------->
+    <header>
+      <div class="logo"><span>Kadan Sistemas</span></div>
+      <nav id="menu">
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="contato.html" class="active">Contato</a>
+        <!-- BOTÃO APENAS MOBILE -->
+        <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-mobile">Falar com a nossa equipe</a>
+      </nav>
+      <!-- BOTÃO APENAS DESKTOP -->
+      <a href="https://wa.me/5516997647232" target="_blank" class="btn-topo btn-desktop">Falar com a nossa equipe</a>
+      <!-- HAMBURGUER -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </header> 
+
+    <section class="contato">
+      <h3>Fale Conosco</h3>
+      <p>Vamos conversar sobre como podemos ajudar sua empresa a crescer.</p>
+    </section>
+
+    <!-------------OUTROS CANAIS------------->
+    <section class="contato-container">
+      <div class="outros-canais">
+        <div class="canal">
+          <img src="img/telefone.png" />
+          <a href="https://wa.me/5516997647232" target="_blank">WhatsApp: (16) 99764-7232</a>
+        </div>
+
+        <div class="canal">
+          <img src="img/email.png" />
+          <a href="mailto:contato@kadan.net.br">contato@kadan.net.br</a>
+        </div>
+
+        <div class="canal">
+          <img src="img/instagram.png" />
+          <a href="https://instagram.com/kadan_sistemas" target="_blank">@kadan_sistemas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-------------FOOTER------------->
+    <footer>
+      <p>(16) 99764-7232</p>
+      <p>contato@kadan.net.br</p>
+      <p>© 2026 Kadan Sistemas. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+function toggleMenu(){
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+  </body>
+</html>
