@@ -22,7 +22,7 @@ A plataforma apresenta uma identidade visual moderna e profissional, destacando 
 
 As principais tecnologias utilizadas no desenvolvimento foram:
 
-- **Frontend:** HTML, CSS
+- **Frontend:** HTML e CSS
 - **Ferramentas:** VS Code, Git e GitHub
 
 ## 📌 Soluções Apresentadas
