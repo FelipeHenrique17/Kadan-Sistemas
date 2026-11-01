@@ -45,7 +45,7 @@ Site: https://kadan.net.br/
 **Felipe Henrique**
 
 - GitHub: [@FelipeHenrique17](https://github.com/FelipeHenrique17)
-- LinkedIn: [Felipe Henrique](www.linkedin.com/in/felipehenrique17)
+- LinkedIn: [Felipe Henrique](https://www.linkedin.com/in/felipehenrique17/)
 
 ---
 
