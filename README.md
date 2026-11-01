@@ -1,5 +1,5 @@
 
-# 🚀 Kadan Sistemas - SITE OFICIAL
+# 🚀 Kadan Sistemas - Site Institucional
 
 Site institucional desenvolvido para apresentar a Kadan Sistemas, uma empresa focada no desenvolvimento de soluções tecnológicas personalizadas para empresas.
 
@@ -22,7 +22,6 @@ A plataforma apresenta uma identidade visual moderna e profissional, destacando 
 
 As principais tecnologias utilizadas no desenvolvimento foram:
 
-- **Linguagem:** JavaScript
 - **Frontend:** HTML, CSS
 - **Ferramentas:** VS Code, Git e GitHub
 
